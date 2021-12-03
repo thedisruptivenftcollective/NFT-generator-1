@@ -1,0 +1,19 @@
+{
+    "image": "./images/00004.png",
+    "tokenId": 4,
+    "name": "NFT #00004",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Red"
+        },
+        {
+            "trait_type": "Foreground",
+            "value": "Python Logo"
+        },
+        {
+            "trait_type": "Branding",
+            "value": "A Name"
+        }
+    ]
+}

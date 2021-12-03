@@ -1,0 +1,32 @@
+[
+    {
+        "Background": "Orange",
+        "Foreground": "Python Logo",
+        "Branding": "A Name",
+        "tokenId": 0
+    },
+    {
+        "Background": "Blue",
+        "Foreground": "Python Logo",
+        "Branding": "A Name",
+        "tokenId": 1
+    },
+    {
+        "Background": "Purple",
+        "Foreground": "Python Logo",
+        "Branding": "A Name",
+        "tokenId": 2
+    },
+    {
+        "Background": "Yellow",
+        "Foreground": "Python Logo",
+        "Branding": "A Name",
+        "tokenId": 3
+    },
+    {
+        "Background": "Red",
+        "Foreground": "Python Logo",
+        "Branding": "A Name",
+        "tokenId": 4
+    }
+]

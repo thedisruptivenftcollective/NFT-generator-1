@@ -1,0 +1,19 @@
+{
+    "image": "./images/00001.png",
+    "tokenId": 1,
+    "name": "NFT #00001",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Foreground",
+            "value": "Python Logo"
+        },
+        {
+            "trait_type": "Branding",
+            "value": "A Name"
+        }
+    ]
+}
