@@ -4,21 +4,21 @@ layers = [
         "values": ["Blue", "Orange", "Purple", "Red", "Yellow"],
         "trait_path": "./layers/background",
         "filename": ["blue", "orange", "purple", "red", "yellow"],
-        "weights": [90, 1, 2, 2, 2]
+        "weights": [0.9, 0.025, 0.025, 0.025, 0.025]
     },
     {
         "name": "Foreground",
-        "values": ["Python Logo"],
+        "values": ["Python Logo", "avatar"],
         "trait_path": "./layers/foreground",
-        "filename": ["logo"],
-        "weights": [20]
+        "filename": ["logo", "avatar"],
+        "weights": [0.5, 0.5]
     },
     {
         "name": "Branding",
         "values": ["A Name"],
         "trait_path": "./layers/text",
         "filename": ["text"],
-        "weights": [20]
+        "weights": [1]
     }
 ]
 

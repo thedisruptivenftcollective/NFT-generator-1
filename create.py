@@ -1,19 +1,19 @@
 from config import layers, name
-import random
 from PIL import Image
-import json
+import numpy as np
 
 def create_new_image(all_images):
     image = {}
 
     for layer in layers:
-        image[layer["name"]] = random.choices(layer["values"], layer["weights"])[0]
+        image[layer["name"]] = np.random.choice(layer["values"], size=1, replace=False, p=layer["weights"])[0]
 
-    if image in all_images:
-        return create_new_image(all_images)
-    else:
-        print(image)
-        return image
+    #if image in all_images:
+    #    return create_new_image(all_images)
+    #else:
+    #   print(image)
+    #    return image
+    return image
 
 def start_processing(number):
     print('Generation images started')
@@ -27,7 +27,9 @@ def start_processing(number):
     all_images = []
     for i in range(number):
         image = create_new_image(all_images)
+        print(image)
         all_images.append(image)
+    print(all_images)
     generate_images(all_images, all_traits, number)
 
 
@@ -45,7 +47,6 @@ def generate_images(all, traits, number):
 
     # go over every item with specifics and generate an image
     for item in all:
-        print(item)
         allLayers = []
         for index, attr in enumerate(item):
 
